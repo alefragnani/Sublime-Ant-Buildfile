@@ -1,0 +1,12 @@
+{
+	"working_dir": "${file_path}",
+	
+	"windows":
+	{
+		"cmd": ["ant.bat", "-v", "-d", "-buildfile", "$file"]
+	},
+  "osx":
+  {
+    "cmd": ["ant", "-v", "-d", "-buildfile", "$file"]
+  }
+}
