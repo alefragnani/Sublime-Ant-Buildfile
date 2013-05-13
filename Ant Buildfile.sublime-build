@@ -1,12 +1,18 @@
 {
-	"working_dir": "${file_path}",
-	
-	"windows":
-	{
-		"cmd": ["ant.bat", "-v", "-d", "-buildfile", "$file"]
-	},
-  "osx":
-  {
-    "cmd": ["ant", "-v", "-d", "-buildfile", "$file"]
-  }
+    "working_dir": "${file_path}",
+
+    "windows":
+    {
+        "cmd": ["ant.bat", "-v", "-d", "-buildfile", "$file"]
+    },
+    
+    "osx":
+    {
+        "cmd": ["ant", "-v", "-d", "-buildfile", "$file"]
+    },
+
+    "linux":
+    {
+        "cmd": ["ant", "-v", "-d", "-buildfile", "$file"]
+    }    
 }
