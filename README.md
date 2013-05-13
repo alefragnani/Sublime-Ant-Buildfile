@@ -1,9 +1,17 @@
-Sublime-Ant-Buildfile
-=====================
+#Ant Buildfile#
 
-A Sublime build system for running Ant for the active .XML file, even if it is not named build.xml.
+A [Sublime Text][1] build system for running [ANT][2] for the active **XML** file, even if it is not named `build.xml`.
 
-Usage
-=====
+##Installation##
 
-Just select And Buildfile as the build system in Tools / Build System and hit Tools / Build and your .XML file will be Anted.
+If you are using [Sublime Package Control][3] start the `Command Palette` and type `Package Control: Install Package`. Then search for `Ant Buildfile` and hit `return`.
+
+If your not using [Sublime Package Control][3] open a terminal/command window, navigate to your Sublime Packages folder and run this command: `git clone https://github.com/alefragnani/Sublime-Ant-Buildfile`. Or, you can download the package as zip file and extract it into your Sublime packages folder. The Sublime Packages folder can be located using the `Preferences / Browse Packages` menu item.
+
+##Usage##
+
+Just select `Ant Buildfile` as the build system in `Tools / Build System` and hit `Tools / Build` and your **XML** file will be built.
+
+  [1]: http://www.sublimetext.com/2
+  [2]: http://ant.apache.org
+  [3]: http://wbond.net/sublime_packages/package_control
